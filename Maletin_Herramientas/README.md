@@ -16,6 +16,8 @@ Shodan: Motor de búsqueda de dispositivos conectados (IoT), cámaras, servidore
 
 OSINT Framework: Directorio web masivo que organiza herramientas de investigación por categorías como IP, dominios o correos.
 
+WhatWeb: Identificación de tecnologías y versiones de una web.
+
 📡 2. Escaneo de Red y Enumeración
 Identificación de puertos abiertos, servicios en ejecución y sistemas operativos.
 
@@ -39,6 +41,8 @@ SQLmap: Herramienta potente para detectar y explotar fallos de inyección SQL y 
 Gobuster: Aplicación para realizar ataques de fuerza bruta contra URIs (directorios y archivos) y subdominios DNS.
 
 Nikto: Escáner web de código abierto que realiza pruebas exhaustivas contra servidores web para detectar archivos peligrosos y software desactualizado.
+
+WPScan: Escáner de seguridad específico para WordPress.
 
 🔐 4. Cracking de Contraseñas y Criptografía
 Herramientas para recuperar o descifrar claves de acceso.
