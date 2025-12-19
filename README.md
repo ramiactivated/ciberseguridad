@@ -46,6 +46,6 @@ Portafolio Académico: Demostrar mi capacidad de documentación y análisis téc
 Toda la información y herramientas aquí descritas se utilizan en entornos controlados y con fines educativos. Me comprometo a seguir los principios del hacking ético, realizando pruebas de penetración únicamente sobre sistemas para los que tengo autorización explícita.
 
 ¿Cómo puedes empezar?
-Si quieres ver cómo uso las herramientas, entra en el Maletín.
+Si quieres ver cómo uso las herramientas, entra en el [Maletín](Maletin_Herramientas).
 
 Si quieres ver los resultados de mis laboratorios, revisa las Prácticas.
