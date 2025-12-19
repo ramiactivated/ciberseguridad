@@ -60,4 +60,4 @@ Metasploit Framework: Plataforma de pruebas de penetración que permite escribir
 
 Searchsploit: Herramienta de línea de comandos para buscar exploits conocidos en la base de datos de Exploit-DB de forma offline.
 
-BeEF (Browser Exploitation Framework): Se centra en el aprovechamiento de vulnerabilidades en los navegadores web para controlar equipos de usuarios finales.
+[BeEF](BeEFmanual.md) (Browser Exploitation Framework): Se centra en el aprovechamiento de vulnerabilidades en los navegadores web para controlar equipos de usuarios finales.
