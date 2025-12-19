@@ -56,7 +56,7 @@ Hashcat: Motor de recuperación de contraseñas basado en GPU, diseñado para at
 🚀 5. Explotación y Post-Explotación
 Acciones para ganar acceso y mantener la persistencia en el sistema objetivo.
 
-Metasploit Framework: Plataforma de pruebas de penetración que permite escribir, probar y ejecutar código de explotación contra máquinas remotas.
+[Metasploit Framework](metamanual.md): Plataforma de pruebas de penetración que permite escribir, probar y ejecutar código de explotación contra máquinas remotas.
 
 [Searchsploit](searchesploitmanual.md): Herramienta de línea de comandos para buscar exploits conocidos en la base de datos de Exploit-DB de forma offline.
 
