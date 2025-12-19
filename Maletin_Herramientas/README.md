@@ -42,7 +42,7 @@ Gobuster: Aplicación para realizar ataques de fuerza bruta contra URIs (directo
 
 Nikto: Escáner web de código abierto que realiza pruebas exhaustivas contra servidores web para detectar archivos peligrosos y software desactualizado.
 
-WPScan: Escáner de seguridad específico para WordPress.
+[WPScan](wpscan_manual.md): Escáner de seguridad específico para WordPress.
 
 🔐 4. Cracking de Contraseñas y Criptografía
 Herramientas para recuperar o descifrar claves de acceso.
