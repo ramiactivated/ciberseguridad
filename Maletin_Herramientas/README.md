@@ -16,12 +16,12 @@ Shodan: Motor de búsqueda de dispositivos conectados (IoT), cámaras, servidore
 
 OSINT Framework: Directorio web masivo que organiza herramientas de investigación por categorías como IP, dominios o correos.
 
-WhatWeb: Identificación de tecnologías y versiones de una web.
+[WhatWeb](whatweb_manual.md): Identificación de tecnologías y versiones de una web.
 
 📡 2. Escaneo de Red y Enumeración
 Identificación de puertos abiertos, servicios en ejecución y sistemas operativos.
 
-Nmap (Network Mapper): El estándar de la industria para el descubrimiento de hosts, escaneo de puertos y auditoría de seguridad mediante scripts NSE.
+[Nmap](nmap_manual.md) (Network Mapper): El estándar de la industria para el descubrimiento de hosts, escaneo de puertos y auditoría de seguridad mediante scripts NSE.
 
 Masscan: Considerado el escáner de puertos más rápido, capaz de escanear toda la red Internet en minutos si el ancho de banda lo permite.
 
@@ -36,22 +36,22 @@ Burp Suite: Plataforma líder para realizar pruebas de seguridad en aplicaciones
 
 OWASP ZAP (Zed Attack Proxy): Alternativa de código abierto a Burp Suite, ideal para encontrar vulnerabilidades comunes de forma automatizada.
 
-SQLmap: Herramienta potente para detectar y explotar fallos de inyección SQL y tomar el control de servidores de bases de datos.
+[SQLmap](sqlmap_manual.md): Herramienta potente para detectar y explotar fallos de inyección SQL y tomar el control de servidores de bases de datos.
 
-Gobuster: Aplicación para realizar ataques de fuerza bruta contra URIs (directorios y archivos) y subdominios DNS.
+[Gobuster](gobuster_manual.md): Aplicación para realizar ataques de fuerza bruta contra URIs (directorios y archivos) y subdominios DNS.
 
-Nikto: Escáner web de código abierto que realiza pruebas exhaustivas contra servidores web para detectar archivos peligrosos y software desactualizado.
+[Nikto](nikto_manual.md): Escáner web de código abierto que realiza pruebas exhaustivas contra servidores web para detectar archivos peligrosos y software desactualizado.
 
 [WPScan](wpscan_manual.md): Escáner de seguridad específico para WordPress.
 
 🔐 4. Cracking de Contraseñas y Criptografía
 Herramientas para recuperar o descifrar claves de acceso.
 
-John the Ripper: Uno de los crackeadores de contraseñas más rápidos y versátiles, capaz de detectar automáticamente el tipo de hash.
+[John the Ripper](john_manual.md): Uno de los crackeadores de contraseñas más rápidos y versátiles, capaz de detectar automáticamente el tipo de hash.
 
 Hashcat: Motor de recuperación de contraseñas basado en GPU, diseñado para ataques masivos de fuerza bruta y diccionarios.
 
-Hydra: Herramienta de inicio de sesión por fuerza bruta en red muy rápida, compatible con protocolos como SSH, FTP, HTTP y más.
+[Hydra](hydra_manual.md): Herramienta de inicio de sesión por fuerza bruta en red muy rápida, compatible con protocolos como SSH, FTP, HTTP y más.
 
 🚀 5. Explotación y Post-Explotación
 Acciones para ganar acceso y mantener la persistencia en el sistema objetivo.
