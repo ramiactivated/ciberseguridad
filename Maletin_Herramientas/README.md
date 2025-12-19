@@ -58,6 +58,6 @@ Acciones para ganar acceso y mantener la persistencia en el sistema objetivo.
 
 Metasploit Framework: Plataforma de pruebas de penetración que permite escribir, probar y ejecutar código de explotación contra máquinas remotas.
 
-Searchsploit: Herramienta de línea de comandos para buscar exploits conocidos en la base de datos de Exploit-DB de forma offline.
+[Searchsploit](searchesploitmanual.md): Herramienta de línea de comandos para buscar exploits conocidos en la base de datos de Exploit-DB de forma offline.
 
 [BeEF](BeEFmanual.md) (Browser Exploitation Framework): Se centra en el aprovechamiento de vulnerabilidades en los navegadores web para controlar equipos de usuarios finales.
