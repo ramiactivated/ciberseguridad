@@ -4,7 +4,7 @@ Este repositorio sirve como base de conocimientos y arsenal de herramientas para
 🔍 1. Reconocimiento y OSINT (Inteligencia de Fuentes Abiertas)
 Recopilación de información sobre el objetivo sin interactuar directamente con él.
 
-theHarvester(theHarvester_manual.md): Herramienta para recolectar correos electrónicos, nombres de subdominios, IPs y nombres de empleados utilizando múltiples fuentes públicas.
+[theHarvester](theHarvester_manual.md): Herramienta para recolectar correos electrónicos, nombres de subdominios, IPs y nombres de empleados utilizando múltiples fuentes públicas.
 
 Sherlock: Permite buscar nombres de usuario en cientos de sitios de redes sociales para trazar perfiles de presencia digital.
 
