@@ -30,7 +30,7 @@ CTFs: Resolución de retos (TryHackMe, HackTheBox, etc.).
 Para garantizar la calidad y el orden en las auditorías, todas las prácticas documentadas tienen que seguir una estructura profesional basada en estándares internacionales.
 
 Puedes consultar el detalle de el proceso aquí:
-👉 **[Ver Metodología: Fases de un Pentesting](./metodologias/fases_pentesting.md)**
+👉 **[Fases de un Pentesting](./metodologia/metodologia.md)**
 
 Esta metodología cubre:
 1. **Reconocimiento** | 2. **Escaneo** | 3. **Análisis de Vulnerabilidades** | 4. **Explotación** | 5. **Post-Explotación**
