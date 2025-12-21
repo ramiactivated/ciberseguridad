@@ -8,15 +8,15 @@ El contenido está organizado por áreas temáticas siguiendo el plan de estudio
 
 [Forense](Forense): Análisis de evidencias digitales, recuperación de datos y respuesta ante incidentes.
 
-Hacking: Pruebas de penetración, explotación de vulnerabilidades y técnicas ofensivas (CTFs y laboratorios).
+[Hacking](Hacking): Pruebas de penetración, explotación de vulnerabilidades y técnicas ofensivas (CTFs y laboratorios).
 
-Maletín de Herramientas: Recopilación de scripts, utilidades y comandos esenciales para el día a día.
+[Maletín de Herramientas](Maletin_Herramientas): Recopilación de scripts, utilidades y comandos esenciales para el día a día.
 
-Normativa: Documentación sobre marcos legales, cumplimiento (GDPR, ENS) y estándares de seguridad.
+[Normativa](Normativa): Documentación sobre marcos legales, cumplimiento (GDPR, ENS) y estándares de seguridad.
 
-Puesta en Producción: Despliegue seguro de aplicaciones y gestión de entornos de sistemas.
+[Puesta en Producción](Puestaenproduccion): Despliegue seguro de aplicaciones y gestión de entornos de sistemas.
 
-Metodología: Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
+[Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
 🛠️ Tecnologías y Herramientas
 
