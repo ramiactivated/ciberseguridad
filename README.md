@@ -19,6 +19,7 @@ El contenido está organizado por áreas temáticas siguiendo el plan de estudio
 [Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
 🛠️ Tecnologías y Herramientas
+
 Sistemas y Bastionado
 Sistemas Operativos:
 Hardening: SSH Hardening, Configuración de Firewalls (UFW, IPTables), Políticas de Grupo (GPO).
