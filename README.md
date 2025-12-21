@@ -19,6 +19,20 @@ El contenido está organizado por áreas temáticas siguiendo el plan de estudio
 [Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
 🛠️ Tecnologías y Herramientas
+Sistemas y Bastionado
+Sistemas Operativos:
+Hardening: SSH Hardening, Configuración de Firewalls (UFW, IPTables), Políticas de Grupo (GPO).
+
+Seguridad Ofensiva (Hacking) y Forense
+Análisis de Red: Nmap, Bettercap.
+
+Explotación: Metasploit Framework, Burp Suite, John the Ripper, Hashcat.
+
+Forense: Autopsy, Volatility, FTK Imager.
+
+Infraestructura y Despliegue (Puesta en Producción)
+Contenedores:
+Servidores Web: Nginx, Apache.
 
 
 🚀 Objetivos
