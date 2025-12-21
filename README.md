@@ -1,65 +1,29 @@
-🎓 Mi Laboratorio de Ciberseguridad
-¡Bienvenido! Este repositorio es mi espacio personal de formación en Ciberseguridad y Hacking Ético. Aquí documento mi proceso de aprendizaje, desde la teoría aplicada en las prácticas hasta la creación de un arsenal de herramientas listas para la acción.
+🛡️ Cybersecurity & Systems Lab
+Bienvenido a mi repositorio personal de prácticas y recursos de ciberseguridad. Este espacio está diseñado para documentar mi aprendizaje y evolución en diferentes áreas de la seguridad informática, desde el bastionado de sistemas hasta la ejecución de auditorías éticas.
 
-📂 Organización del Proyecto
-El repositorio está estructurado de la siguiente manera para facilitar la navegación:
+📁 Estructura del Repositorio
+El contenido está organizado por áreas temáticas siguiendo el plan de estudios y mis investigaciones personales:
 
-1. 🧰 Maletín de Herramientas
-Mi "navaja suiza" personal. En esta carpeta guardo manuales detallados sobre el uso de herramientas esenciales.
+[Bastionado](Bationado): Configuración y endurecimiento de sistemas operativos y servicios para reducir la superficie de ataque.
 
-Reconocimiento: theHarvester, WhatWeb.
+[Forense](Forense): Análisis de evidencias digitales, recuperación de datos y respuesta ante incidentes.
 
-Escaneo: Nmap.
+Hacking: Pruebas de penetración, explotación de vulnerabilidades y técnicas ofensivas (CTFs y laboratorios).
 
-Auditoría Web: SQLmap, Gobuster, Nikto, WPScan.
+Maletín de Herramientas: Recopilación de scripts, utilidades y comandos esenciales para el día a día.
 
-Cracking: John the Ripper, Hydra.
+Normativa: Documentación sobre marcos legales, cumplimiento (GDPR, ENS) y estándares de seguridad.
 
-Explotación: Metasploit, Searchsploit, BeEF.
+Puesta en Producción: Despliegue seguro de aplicaciones y gestión de entornos de sistemas.
 
-2. 📝 Registro de Prácticas
-Documentación paso a paso de los laboratorios realizados durante mi formación.
+Metodología: Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
-Análisis de Vulnerabilidades: Reportes técnicos.
+🛠️ Tecnologías y Herramientas
 
-Explotación de Sistemas: Documentación de máquinas (Windows/Linux).
 
-CTFs: Resolución de retos (TryHackMe, HackTheBox, etc.).
+🚀 Objetivos
+Documentar la resolución de máquinas y laboratorios.
 
-3.## 📐 Metodología de Trabajo
-Para garantizar la calidad y el orden en las auditorías, todas las prácticas documentadas tienen que seguir una estructura profesional basada en estándares internacionales.
+Crear una base de conocimiento sólida para consultas rápidas.
 
-Puedes consultar el detalle de el proceso aquí:
-👉 **[Fases de un Pentesting](./metodologia/metodologia.md)**
-
-Esta metodología cubre:
-1. **Reconocimiento** | 2. **Escaneo** | 3. **Análisis de Vulnerabilidades** | 4. **Explotación** | 5. **Post-Explotación**
-
-🛠️ Mi Stack de Trabajo
-Para el desarrollo de estas prácticas, utilizo principalmente:
-
-OS: Kali Linux / Parrot OS.
-
-Virtualización: VirtualBox / VMware.
-
-Gestión de Redes: Redes NAT y adaptadores puente para laboratorios aislados.
-
-🎯 Objetivos de este Repositorio
-Consolidar conocimientos: Al escribir los manuales, refuerzo lo aprendido.
-
-Referencia rápida: Tener los comandos y flags más usados a un clic de distancia.
-
-Portafolio Académico: Demostrar mi capacidad de documentación y análisis técnico.
-
-⚖️ Compromiso Ético
-Toda la información y herramientas aquí descritas se utilizan en entornos controlados y con fines educativos. Me comprometo a seguir los principios del hacking ético, realizando pruebas de penetración únicamente sobre sistemas para los que tengo autorización explícita.
-
-¿Cómo puedes empezar?
-Si quieres ver cómo uso las herramientas, entra en el [Maletín](Maletin_Herramientas).
-
-Si quieres ver los resultados de mis laboratorios, revisa las Prácticas.
-[Bastionado](Bationado)
-[Forense](Forense)
-[Hacking](Hacking)
-[Normativa](Normativa)
-
+Compartir metodologías de trabajo en entornos de Pentesting.
