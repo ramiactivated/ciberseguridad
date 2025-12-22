@@ -16,7 +16,7 @@ El contenido está organizado por áreas temáticas siguiendo el plan de estudio
 
 [Puesta en Producción](Puestaenproduccion): Despliegue seguro de aplicaciones y gestión de entornos de sistemas.
 
-[Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
+[Metodología](metodologia.md): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
 🛠️ Tecnologías y Herramientas
 
@@ -63,43 +63,54 @@ Buscar archivos con permisos de escritura para "otros" (World-Writable):
 Bash
 
 find / -perm -o+w -type f 2>/dev/null | grep -v "/proc"
+
 Encontrar archivos editados en los últimos 10 minutos (ideal para detectar cambios recientes):
 
 Bash
 
 find / -mmin -10 -type f 2>/dev/null
+
 Ver capacidades especiales de archivos (Capabilities):
 
 Bash
 
 getcap -r / 2>/dev/null
-🕵️ Análisis de Logs y Forense
-Monitorizar intentos de acceso fallidos por SSH en tiempo real:
 
+
+🕵️ Análisis de Logs y Forense
+
+Monitorizar intentos de acceso fallidos por SSH en tiempo real:
 Bash
 
 tail -f /var/log/auth.log | grep "Failed password"
+
 Contar cuántas peticiones ha hecho cada IP a tu servidor web:
 
 Bash
 
 awk '{print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -nr
+
 Extraer metadatos básicos de un archivo (sin instalar exiftool):
 
 Bash
 
 strings [archivo] | head -n 20
+
+
 ⚙️ Gestión de Sistemas y Servicios
+
 Matar todos los procesos de un usuario específico:
 
 Bash
 
 pgrep -u [usuario] | xargs kill -9
+
 Saber qué proceso está escuchando en un puerto específico:
 
 Bash
 
 sudo lsof -i :80
+
 Ver el consumo de recursos de los contenedores Docker en tiempo real:
 
 Bash
