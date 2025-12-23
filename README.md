@@ -35,7 +35,7 @@ Infraestructura y Despliegue (Puesta en Producción)
 Contenedores:
 Servidores Web: Nginx, Apache.
 
-## ⚡ Comandos Potentes (One-Liners)
+## ⚡ Comandos Potentes
 <details>
 <summary>📂 <b>Ver comandos de</b></summary>
 Esta es una selección de comandos avanzados para agilizar tareas de pentesting, forense y administración de sistemas.
