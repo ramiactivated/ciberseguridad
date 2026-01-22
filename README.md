@@ -4,8 +4,6 @@
   </a>
 </div>
 
-<div align="center">
-  <h1>🛡️ Laboratorio de Ciberseguridad & Sistemas</h1>
   <p><strong>Repositorio personal de prácticas, hardening y pentesting</strong></p>
 
   <img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge&logo=github">
