@@ -16,7 +16,7 @@ El contenido está organizado por áreas temáticas siguiendo el plan de estudio
 
 [Puesta en Producción](Puestaenproduccion): Despliegue seguro de aplicaciones y gestión de entornos de sistemas.
 
-[Metodología](metodologia.md): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
+[Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
 🛠️ Tecnologías y Herramientas
 
