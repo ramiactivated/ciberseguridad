@@ -148,6 +148,7 @@ docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 | **🧠  Base de conocimiento ** | Crear una base centralizada para consultas rápidas durante auditorías. |
 | **🤝 Metodología** | Estandarizar flujos de trabajo para **Pentesting** y **Red Team**. |
 
+</details>
 
 
 ---
