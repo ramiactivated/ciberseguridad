@@ -181,7 +181,7 @@ docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 <div align="center">
   <h3>📬 Conecta conmigo</h3>
   <p>
-    <a href="https://linkedin.com/in/TU_USUARIO" target="_blank">
+    <a href="https://linkedin.com/in/héctor-ramírez-cybersec" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
     <a href="mailto:hectorelidina@gmail.com">
