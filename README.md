@@ -139,7 +139,8 @@ sudo lsof -i :80
 
 # Monitorizar Docker en tiempo real
 docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
-,,,  </details>
+</details>
+````
 
 
 
