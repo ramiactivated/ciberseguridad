@@ -131,23 +131,15 @@ strings [archivo] | head -n 20
 
 ⚙️ Gestión de Sistemas y Servicios
 
-Matar todos los procesos de un usuario específico:
-
-Bash
-
+# Matar todos los procesos de un usuario concreto
 pgrep -u [usuario] | xargs kill -9
 
-Saber qué proceso está escuchando en un puerto específico:
-
-Bash
-
+# ¿Qué proceso escucha en el puerto 80?
 sudo lsof -i :80
 
-Ver el consumo de recursos de los contenedores Docker en tiempo real:
+# Monitorizar Docker en tiempo real (Formato tabla limpia)
+docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 
-Bash
-
-docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage
 
 
 </details>
