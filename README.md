@@ -74,6 +74,18 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
   <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 </p>
+<br>
+
+### 🎥 Laboratorio en Vivo
+> *Ejecución de scripts de enumeración y análisis de red en tiempo real.*
+
+<div align="center">
+  <a href="https://asciinema.org/a/117813?autoplay=1">
+    <img src="https://asciinema.org/a/117813.svg" alt="Terminal Demo" width="100%"/>
+  </a>
+</div>
+
+<br>
 
 
 
