@@ -25,22 +25,43 @@ El contenido está organizado por áreas temáticas siguiendo el plan de estudio
 
 [Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
-🛠️ Tecnologías y Herramientas
+### 🛠️ Tecnologías y Herramientas
 
-Sistemas y Bastionado
-Sistemas Operativos:
-Hardening: SSH Hardening, Configuración de Firewalls (UFW, IPTables), Políticas de Grupo (GPO).
+**💀 Seguridad Ofensiva & Red Team**
+<p>
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white">
+  <img src="https://img.shields.io/badge/Nmap-2D8CFF?style=for-the-badge&logo=nmap&logoColor=white">
+  <img src="https://img.shields.io/badge/Bettercap-000000?style=for-the-badge&logo=linux&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/Metasploit-333333?style=for-the-badge&logo=metasploit&logoColor=white">
+  <img src="https://img.shields.io/badge/Burp_Suite-F66A0A?style=for-the-badge&logo=burpsuite&logoColor=white">
+  <img src="https://img.shields.io/badge/Hashcat-D40000?style=for-the-badge&logo=cmd&logoColor=white">
+  <img src="https://img.shields.io/badge/John_The_Ripper-444444?style=for-the-badge&logo=hackthebox&logoColor=white">
+</p>
 
-Seguridad Ofensiva (Hacking) y Forense
-Análisis de Red: Nmap, Bettercap.
+**🛡️ Bastionado de Sistemas (Hardening)**
+<p>
+  <img src="https://img.shields.io/badge/Linux_Hardening-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/SSH-2C2C2C?style=for-the-badge&logo=openssh&logoColor=white">
+  <img src="https://img.shields.io/badge/UFW_Firewall-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img src="https://img.shields.io/badge/Windows_GPO-0078D6?style=for-the-badge&logo=windows&logoColor=white">
+</p>
 
-Explotación: Metasploit Framework, Burp Suite, John the Ripper, Hashcat.
+**🕵️ Análisis Forense Digital**
+<p>
+  <img src="https://img.shields.io/badge/Autopsy-154959?style=for-the-badge&logo=security&logoColor=white">
+  <img src="https://img.shields.io/badge/Volatility-000000?style=for-the-badge&logo=python&logoColor=green">
+  <img src="https://img.shields.io/badge/FTK_Imager-5B2C6F?style=for-the-badge&logo=database&logoColor=white">
+</p>
 
-Forense: Autopsy, Volatility, FTK Imager.
+**🏗️ Infraestructura & Despliegue**
+<p>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
+  <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+</p>
 
-Infraestructura y Despliegue (Puesta en Producción)
-Contenedores:
-Servidores Web: Nginx, Apache.
+
 
 ## ⚡ Comandos Potentes
 <details>
