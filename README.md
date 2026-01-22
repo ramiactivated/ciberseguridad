@@ -140,14 +140,13 @@ sudo lsof -i :80
 # Monitorizar Docker en tiempo real (Formato tabla limpia)
 docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 
-</details>
-🚀 Objetivos del Proyecto
-<div align="left">
-<ul>
-<li>🎯 <b>Documentación Activa:</b> Registrar la resolución de máquinas (Writeups) y laboratorios.</li>
-<li>🧠 <b>Base de Conocimiento:</b> Crear un repositorio centralizado ("Second Brain") para consultas rápidas en auditorías.</li>
-<li>🤝 <b>Metodología:</b> Compartir flujos de trabajo estandarizados para entornos de Pentesting y Red Team.</li>
-</ul>
-</div>
+### 🚀 Objetivos del Proyecto
+
+| Misión | Descripción |
+| :---: | :--- |
+| **🎯 Documentación** | Registrar la resolución de máquinas (**Writeups**) y laboratorios prácticos. |
+| **🧠 Knowledge Base** | Crear un "Second Brain" centralizado para consultas rápidas durante auditorías. |
+| **🤝 Metodología** | Estandarizar flujos de trabajo (Playbooks) para **Pentesting** y **Red Team**. |
+
 
 
