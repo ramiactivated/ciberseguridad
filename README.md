@@ -10,29 +10,36 @@
 
 ### 📁 Estructura del Repositorio
 
-```text
-/root
-│
-├── 🛡️ Bastionado/
-│   └── Configuración y hardening de SO y servicios (Reducción superficie de ataque).
-│
-├── 🕵️ Forense/
-│   └── Análisis de evidencias, recuperación de datos y respuesta ante incidentes.
-│
-├── 💀 Hacking/
-│   └── Pentesting, explotación de vulnerabilidades, CTFs y técnicas ofensivas.
-│
-├── 🧰 Maletin_Herramientas/
-│   └── Scripts personales, utilidades y comandos esenciales (Cheatsheets).
-│
-├── ⚖️ Normativa/
-│   └── Marcos legales (GDPR, ENS) y estándares de seguridad.
-│
-├── 🚀 Puestaenproduccion/
-│   └── Despliegue seguro y gestión de entornos.
-│
-└── 🧠 Metodologia/
-    └── Frameworks (OWASP, PTES) y guías de auditoría paso a paso.
+El contenido está organizado temáticamente. Haz clic en las carpetas para acceder:
+
+📂 **Raíz del Proyecto**
+<br>
+├── [**🛡️ Bastionado**](./Bastionado)
+<br>
+│   └── *Hardening, Firewalls (UFW/IPtables) y GPO.*
+<br>
+├── [**🕵️ Forense**](./Forense)
+<br>
+│   └── *Análisis de evidencias, Autopsy y Volatility.*
+<br>
+├── [**💀 Hacking**](./Hacking)
+<br>
+│   └── *Pentesting, Metasploit, CTFs y Exploits.*
+<br>
+├── [**🧰 Maletín de Herramientas**](./Maletin_Herramientas)
+<br>
+│   └── *Scripts, diccionarios y utilidades diarias.*
+<br>
+├── [**⚖️ Normativa**](./Normativa)
+<br>
+│   └── *Cumplimiento legal (GDPR, ENS) y estándares.*
+<br>
+├── [**🚀 Puesta en Producción**](./Puestaenproduccion)
+<br>
+│   └── *Despliegue seguro, Nginx/Apache y Contenedores.*
+<br>
+└── [**🧠 Metodología**](./metodologia)
+    └── *Guías basadas en OWASP y PTES.*
 
 
 ### 🛠️ Tecnologías y Herramientas
