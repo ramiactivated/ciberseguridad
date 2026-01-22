@@ -14,7 +14,7 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
 
 📂 **Raíz del Proyecto**
 <br>
-├── [**🛡️ Bastionado**](./Bastionado)
+├── [**🛡️ Bastionado**](./Bationado)
 <br>
 │   └── *Hardening, Firewalls (UFW/IPtables) y GPO.*
 <br>
