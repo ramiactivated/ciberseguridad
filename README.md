@@ -137,8 +137,10 @@ pgrep -u [usuario] | xargs kill -9
 # ¿Qué proceso escucha en el puerto 80?
 sudo lsof -i :80
 
-# Monitorizar Docker en tiempo real (Formato tabla limpia)
+# Monitorizar Docker en tiempo real
 docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
+</details>
+
 
 ### 🚀 Objetivos del Proyecto
 
@@ -148,7 +150,6 @@ docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 | **🧠  Base de conocimiento ** | Crear una base centralizada para consultas rápidas durante auditorías. |
 | **🤝 Metodología** | Estandarizar flujos de trabajo para **Pentesting** y **Red Team**. |
 
-</details>
 
 
 ---
