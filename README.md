@@ -101,8 +101,8 @@ curl -s "[https://crt.sh/?q=%.google.com&output=json](https://crt.sh/?q=%.google
 sudo tcpdump -i eth0 port 80 -A
 
 
-### 🛡️ Auditoría y Escalada de Privilegios
-```bash
+🛡️ Auditoría y Escalada de Privilegios
+
 # Buscar archivos "World-Writable" (peligrosos)
 find / -perm -o+w -type f 2>/dev/null | grep -v "/proc"
 
@@ -116,22 +116,17 @@ getcap -r / 2>/dev/null
 
 🕵️ Análisis de Logs y Forense
 
-Monitorizar intentos de acceso fallidos por SSH en tiempo real:
-Bash
-
+# Monitorizar ataques de fuerza bruta SSH en tiempo real
 tail -f /var/log/auth.log | grep "Failed password"
 
-Contar cuántas peticiones ha hecho cada IP a tu servidor web:
-
-Bash
-
+# Top IPs que visitan tu servidor web (Ordenadas por cantidad)
 awk '{print $1}' /var/log/apache2/access.log | sort | uniq -c | sort -nr
 
-Extraer metadatos básicos de un archivo (sin instalar exiftool):
-
-Bash
-
+# Extraer strings de un binario/imagen (Análisis rápido sin exiftool)
 strings [archivo] | head -n 20
+
+
+
 
 
 ⚙️ Gestión de Sistemas y Servicios
