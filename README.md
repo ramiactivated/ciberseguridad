@@ -101,7 +101,7 @@ curl -s "[https://crt.sh/?q=%.google.com&output=json](https://crt.sh/?q=%.google
 sudo tcpdump -i eth0 port 80 -A
 
 
-🛡️ Auditoría y Escalada de Privilegios
+### 🛡️ Auditoría y Escalada de Privilegios
 
 # Buscar archivos "World-Writable" (peligrosos)
 find / -perm -o+w -type f 2>/dev/null | grep -v "/proc"
