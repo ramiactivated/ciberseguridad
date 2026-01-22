@@ -144,9 +144,9 @@ docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 
 | Misión | Descripción |
 | :---: | :--- |
-| **🎯 Documentación** | Registrar la resolución de máquinas (**Writeups**) y laboratorios prácticos. |
-| **🧠 Knowledge Base** | Crear un "Second Brain" centralizado para consultas rápidas durante auditorías. |
-| **🤝 Metodología** | Estandarizar flujos de trabajo (Playbooks) para **Pentesting** y **Red Team**. |
+| **🎯 Documentación** | Registrar la resolución de máquinas y laboratorios prácticos. |
+| **🧠  Base de conocimiento ** | Crear una base centralizada para consultas rápidas durante auditorías. |
+| **🤝 Metodología** | Estandarizar flujos de trabajo para **Pentesting** y **Red Team**. |
 
 
 
