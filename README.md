@@ -102,7 +102,7 @@ sudo tcpdump -i eth0 port 80 -A
 
 
 ### 🛡️ Auditoría y Escalada de Privilegios
-
+```bash
 # Buscar archivos "World-Writable" (peligrosos)
 find / -perm -o+w -type f 2>/dev/null | grep -v "/proc"
 
