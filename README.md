@@ -177,4 +177,20 @@ docker stats --no-stream --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramiactivated&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
+<br>
+<div align="center">
+  <h3>📬 Conecta conmigo</h3>
+  <p>
+    <a href="https://linkedin.com/in/TU_USUARIO" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="mailto:TU_CORREO@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+    <a href="https://twitter.com/TU_USUARIO" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    </a>
+  </p>
+</div>
+
 
