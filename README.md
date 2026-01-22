@@ -102,23 +102,16 @@ sudo tcpdump -i eth0 port 80 -A
 
 
 🛡️ Auditoría y Escalada de Privilegios
-Buscar archivos con permisos de escritura para "otros" (World-Writable):
 
-Bash
-
+# Buscar archivos "World-Writable" (peligrosos)
 find / -perm -o+w -type f 2>/dev/null | grep -v "/proc"
 
-Encontrar archivos editados en los últimos 10 minutos (ideal para detectar cambios recientes):
-
-Bash
-
+# Archivos modificados en los últimos 10 min (Detectar intrusiones/cambios)
 find / -mmin -10 -type f 2>/dev/null
 
-Ver capacidades especiales de archivos (Capabilities):
-
-Bash
-
+# Listar capabilities (Permisos especiales de binarios)
 getcap -r / 2>/dev/null
+
 
 
 🕵️ Análisis de Logs y Forense
