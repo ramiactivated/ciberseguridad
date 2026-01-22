@@ -8,22 +8,32 @@
 
 <br>
 
-📁 Estructura del Repositorio
-El contenido está organizado por áreas temáticas siguiendo el plan de estudios y mis investigaciones personales:
+### 📁 Estructura del Repositorio
 
-[Bastionado](Bationado): Configuración y endurecimiento de sistemas operativos y servicios para reducir la superficie de ataque.
+```text
+/root
+│
+├── 🛡️ Bastionado/
+│   └── Configuración y hardening de SO y servicios (Reducción superficie de ataque).
+│
+├── 🕵️ Forense/
+│   └── Análisis de evidencias, recuperación de datos y respuesta ante incidentes.
+│
+├── 💀 Hacking/
+│   └── Pentesting, explotación de vulnerabilidades, CTFs y técnicas ofensivas.
+│
+├── 🧰 Maletin_Herramientas/
+│   └── Scripts personales, utilidades y comandos esenciales (Cheatsheets).
+│
+├── ⚖️ Normativa/
+│   └── Marcos legales (GDPR, ENS) y estándares de seguridad.
+│
+├── 🚀 Puestaenproduccion/
+│   └── Despliegue seguro y gestión de entornos.
+│
+└── 🧠 Metodologia/
+    └── Frameworks (OWASP, PTES) y guías de auditoría paso a paso.
 
-[Forense](Forense): Análisis de evidencias digitales, recuperación de datos y respuesta ante incidentes.
-
-[Hacking](Hacking): Pruebas de penetración, explotación de vulnerabilidades y técnicas ofensivas (CTFs y laboratorios).
-
-[Maletín de Herramientas](Maletin_Herramientas): Recopilación de scripts, utilidades y comandos esenciales para el día a día.
-
-[Normativa](Normativa): Documentación sobre marcos legales, cumplimiento (GDPR, ENS) y estándares de seguridad.
-
-[Puesta en Producción](Puestaenproduccion): Despliegue seguro de aplicaciones y gestión de entornos de sistemas.
-
-[Metodología](metodologia): Guías paso a paso y frameworks (como OWASP o PTES) utilizados en mis auditorías.
 
 ### 🛠️ Tecnologías y Herramientas
 
