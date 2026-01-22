@@ -1,5 +1,12 @@
-🛡️ Cybersecurity & Systems Lab
-Bienvenido a mi repositorio personal de prácticas y recursos de ciberseguridad. Este espacio está diseñado para documentar mi aprendizaje y evolución en diferentes áreas de la seguridad informática, desde el bastionado de sistemas hasta la ejecución de auditorías éticas.
+<div align="center">
+  <h1>🛡️ Laboratorio de Ciberseguridad & Sistemas</h1>
+  <p><strong>Repositorio personal de prácticas, hardening y pentesting</strong></p>
+
+  <img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge&logo=github">
+  <img src="https://img.shields.io/badge/Enfoque-Red_Team_%2F_Blue_Team-red?style=for-the-badge">
+</div>
+
+<br>
 
 📁 Estructura del Repositorio
 El contenido está organizado por áreas temáticas siguiendo el plan de estudios y mis investigaciones personales:
