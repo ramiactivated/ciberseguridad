@@ -80,27 +80,26 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
 
 
 
-## ⚡ Comandos Potentes
+---
+
+## ⚡ Comandos Potentes (Cheatsheet)
+> *Selección de "One-Liners" para agilizar tareas de pentesting, forense y administración.*
+
 <details>
-<summary>📂 <b>Ver comandos de</b></summary>
-Esta es una selección de comandos avanzados para agilizar tareas de pentesting, forense y administración de sistemas.
+  <summary><b>🔻 HACKER MODE: Desplegar lista de comandos</b> (Click aquí)</summary>
+  <br>
 
-🔍 Reconocimiento y Redes
-Identificar dispositivos vivos en la red local (Ping Sweep):
-
-Bash
-
+### 🔍 Reconocimiento y Redes
+```bash
+# Identificar hosts vivos en la red (Ping Sweep rápido)
 for i in {1..254}; do ping -c 1 -W 1 192.168.1.$i | grep "from" & done
-Listar todos los subdominios de un sitio (usando crt.sh):
 
-Bash
+# Enumerar subdominios usando certificados SSL (crt.sh)
+curl -s "[https://crt.sh/?q=%.google.com&output=json](https://crt.sh/?q=%.google.com&output=json)" | jq -r '.[].name_value' | sed 's/*.//g' | sort -u
 
-curl -s https://crt.sh/\?q\=%25.google.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u
-Captura rápida de tráfico en el puerto 80 (HTTP):
-
-Bash
-
+# Sniffing rápido de tráfico HTTP (Puerto 80)
 sudo tcpdump -i eth0 port 80 -A
+
 
 🛡️ Auditoría y Escalada de Privilegios
 Buscar archivos con permisos de escritura para "otros" (World-Writable):
