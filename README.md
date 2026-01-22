@@ -1,16 +1,9 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=500&lines=Pentesting+%26+Red+Team;CTF+Player+💀;Auditoría+de+Sistemas;bienvenido+a+mi+Laboratorio..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=600&lines=Repositorio+de+Ciberseguridad;Pentesting+%26+Red+Team;An%C3%A1lisis+Forense+%26+Hardening;Bienvenido+a+mi+Laboratorio+ROOT" alt="Typing SVG" />
   </a>
 </div>
 
-  <p><strong>Repositorio personal de prácticas, hardening y pentesting</strong></p>
-
-  <img src="https://img.shields.io/badge/Estado-Activo-success?style=for-the-badge&logo=github">
-  <img src="https://img.shields.io/badge/Enfoque-Red_Team_%2F_Blue_Team-red?style=for-the-badge">
-</div>
-
-<br>
 
 ### 📁 Estructura del Repositorio
 
