@@ -17,6 +17,7 @@ graph TD
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style D fill:#bbf,stroke:#333,stroke-width:2px
     style F fill:#bfb,stroke:#333,stroke-width:2px
+´´´
 
 🕵️ 1. Reconocimiento
 La fase de recolección de información.
