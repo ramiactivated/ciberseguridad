@@ -33,7 +33,7 @@ El objetivo es conocer el "perfil" del objetivo tanto como sea posible antes de 
 * **Activo:** Interactuando directamente con la infraestructura.
 
 > **🧰 Herramientas en tu maletín:**
-> * [**theHarvester**](../theHarvester_manual.md)
+> * [**theHarvester**](..Maletin_Herramientas/theHarvester_manual.md)
 > * [**WhatWeb**](../whatweb_manual.md)
 > * [**Shodan**](../README.md#%F0%9F%94%8D-1-reconocimiento-y-osint)
 
