@@ -100,7 +100,7 @@ Debemos evaluar el impacto real del compromiso y ver qué tan profundo podemos l
 ## 📝 6. Informe y Limpieza
 *La fase más importante para un profesional.*
 
-> [!CAUTION]
+> [!ALERTA]
 > **Limpieza Obligatoria:** Debes borrar archivos subidos, eliminar usuarios creados y cerrar cualquier backdoor. **¡No dejes rastro!**
 
 * **Informe Ejecutivo:** Resumen para la directiva (enfocado en el impacto de negocio).
