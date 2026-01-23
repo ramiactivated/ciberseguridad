@@ -34,8 +34,8 @@ El objetivo es conocer el "perfil" del objetivo tanto como sea posible antes de 
 
 > **🧰 Herramientas en tu maletín:**
 > * [**theHarvester**](../Maletin_Herramientas/theHarvester_manual.md)
-> * [**WhatWeb**](../whatweb_manual.md)
-> * [**Shodan**](../README.md#%F0%9F%94%8D-1-reconocimiento-y-osint)
+> * [**WhatWeb**](../Maletin_Herramientas/whatweb_manual.md)
+> * [**Shodan**](https://www.shodan.io/) *(Motor de búsqueda)*
 
 ---
 
@@ -48,8 +48,8 @@ Identificamos qué sistemas hay, qué puertos tienen abiertos y qué servicios e
 * **Acciones:** Escaneo de puertos, enumeración de subdominios, descubrimiento de directorios ocultos.
 
 > **🧰 Herramientas en tu maletín:**
-> * [**Nmap**](../nmap_manual.md)
-> * [**Gobuster**](../gobuster_manual.md)
+> * [**Nmap**](../Maletin_Herramientas/nmap_manual.md)
+> * [**Gobuster**](../Maletin_Herramientas/gobuster_manual.md)
 
 ---
 
@@ -61,9 +61,9 @@ Con la información de la fase anterior, buscamos debilidades específicas en lo
 * **Acciones:** Buscar versiones de software desactualizadas con exploits conocidos (CVEs) o fallos de configuración por defecto.
 
 > **🧰 Herramientas en tu maletín:**
-> * [**Nikto**](../nikto_manual.md)
-> * [**WPScan**](../wpscan_manual.md)
-> * [**Searchsploit**](../searchesploitmanual.md)
+> * [**Nikto**](../Maletin_Herramientas/nikto_manual.md)
+> * [**WPScan**](../Maletin_Herramientas/wpscan_manual.md)
+> * [**Searchsploit**](../Maletin_Herramientas/searchesploitmanual.md)
 
 ---
 
@@ -76,9 +76,9 @@ Intentamos aprovechar las vulnerabilidades encontradas para ganar acceso no auto
 * **Acciones:** Lanzar exploits, realizar ataques de inyección SQL o fuerza bruta de contraseñas.
 
 > **🧰 Herramientas en tu maletín:**
-> * [**Metasploit**](../metamanual.md)
-> * [**SQLmap**](../sqlmap_manual.md)
-> * [**Hydra**](../hydra_manual.md)
+> * [**Metasploit**](../Maletin_Herramientas/metamanual.md)
+> * [**SQLmap**](../Maletin_Herramientas/sqlmap_manual.md)
+> * [**Hydra**](../Maletin_Herramientas/hydra_manual.md)
 
 ---
 
@@ -92,8 +92,8 @@ Debemos evaluar el impacto real del compromiso y ver qué tan profundo podemos l
 * **Persistencia:** Configurar una forma de volver a entrar si nos cierran la conexión (Backdoors).
 
 > **🧰 Herramientas en tu maletín:**
-> * [**BeEF**](../BeEFmanual.md)
-> * [**John the Ripper**](../john_manual.md) *(Para crackear hashes obtenidos)*
+> * [**BeEF**](../Maletin_Herramientas/BeEFmanual.md)
+> * [**John the Ripper**](../Maletin_Herramientas/john_manual.md) *(Para crackear hashes obtenidos)*
 
 ---
 
