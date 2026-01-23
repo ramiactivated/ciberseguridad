@@ -54,5 +54,5 @@
 | Herramienta | Descripción |
 | :--- | :--- |
 | [**Metasploit**](./metamanual.md) | Framework para desarrollar y ejecutar exploits. |
-| [**Searchsploit**](./searchsploitmanual.md) | Búsqueda offline en la base de datos de Exploit-DB. |
+| [**Searchsploit**](./searchesploitmanual.md) | Búsqueda offline en la base de datos de Exploit-DB. |
 | [**BeEF**](./BeEFmanual.md) | Explotación de vulnerabilidades en navegadores web. |
