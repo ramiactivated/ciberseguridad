@@ -87,7 +87,6 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
 | <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Intercept"> | <img src="https://raw.githubusercontent.com/bettercap/media/master/bettercap-transparent.png" width="400" alt="Bettercap Logo/Demo"> |
 | *Interceptando tráfico con Burp Proxy* | *Navaja suiza para redes y MITM* |
 
-> **Nota:** Para máxima estabilidad, te recomiendo descargar estos GIFs y subirlos a una carpeta `img` en tu propio repositorio.
 </p>
 <br>
 
