@@ -1,7 +1,29 @@
-# 🧰 Maletín Maestro de Herramientas para Hacking Ético
+<div align="center">
 
-> 🛡️ **Base de conocimientos y arsenal** para auditorías de ciberseguridad y hacking ético.
+# 🧰 Maletín Maestro de Herramientas
+### Hacking Ético & Ciberseguridad
 
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=git)
+![Security](https://img.shields.io/badge/Focus-Cybersecurity-red?style=for-the-badge&logo=kali-linux)
+![Lang](https://img.shields.io/badge/Language-Español-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Open%20Source-orange?style=for-the-badge)
+
+<br>
+
+> *Un arsenal completo de conocimientos y manuales de campo para auditores y pentesters.*
+
+[ 🔍 OSINT ](#-1-reconocimiento-y-osint) • [ 📡 REDES ](#-2-escaneo-de-red-y-enumeración) • [ 🌐 WEB ](#-3-auditoría-de-aplicaciones-web) • [ 🔐 CRACKING ](#-4-cracking-y-criptografía) • [ 🚀 EXPLOIT ](#-5-explotación-y-post-explotación)
+
+</div>
+
+---
+
+## 📥 Clonar Repositorio
+Para tener este manual siempre a mano en tu máquina local:
+
+```bash
+git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+cd TU_REPOSITORIO
 ---
 
 ## 🔍 1. Reconocimiento y OSINT
