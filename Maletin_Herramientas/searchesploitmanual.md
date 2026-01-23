@@ -1,26 +1,22 @@
-Búsqueda offline en la base de datos de Exploit-DB.
+# 🔦 Manual de Uso: Searchsploit
 
-Uso Principal
-Permite encontrar vulnerabilidades conocidas sin necesidad de conexión a internet.
+> Búsqueda offline en la base de datos masiva de Exploit-DB. Ideal para entornos aislados sin internet.
 
-Comandos Clave
-Buscar un exploit:
+### 💻 Ejemplo de Uso Real
 
-Bash
+```bash
+# 1. Buscar exploits para Windows y el servicio SMB
+searchsploit windows smb
 
-searchsploit windows smb    # Busca exploits para Windows y el protocolo SMB
-Examinar un exploit (ver el código):
+# 2. Copiar el exploit de interés (ID 42315) a tu carpeta actual para usarlo
+searchsploit -m 42315
 
-Bash
+searchsploit [términos] : Búsqueda básica. Busca coincidencias en la base de datos local (ej: apache 2.4 o windows 10).
 
-searchsploit -x 42315       # Abre el exploit con el ID 42315
-Copiar el exploit a tu carpeta actual:
+-m [ID] : Mirror (Copiar). Copia el archivo del exploit a tu directorio de trabajo actual.
 
-Bash
+Nota: Es más seguro que editar el original en la base de datos.
 
-searchsploit -m 42315       # Crea una copia para que puedas editarla o lanzarla
-Actualizar la base de datos:
+-x [ID] : Examinar. Abre el exploit en el editor de texto para leer el código o las instrucciones de uso.
 
-Bash
-
-searchsploit -u
+-u : Update. Actualiza la base de datos local de Exploit-DB (requiere internet para este paso).
