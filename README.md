@@ -74,18 +74,18 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
   <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 
- ## 🎬 Demos en Vivo: Herramientas en Acción
+## 🎬 Demos en Vivo: Herramientas en Acción
 *Visualización real de terminales y herramientas de seguridad.*
 
-| 🕵️ Escaneo de Red (Nmap) | 🖥️ Terminal "Hacker" (Genact) |
+| 🕵️ Escaneo de Red (Nmap) | 💥 Búsqueda de Exploits (Searchsploit) |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Demo"> | <img src="https://raw.githubusercontent.com/svenstaro/genact/master/doc/demo.gif" width="400" alt="Hacker Terminal Demo"> |
-| *Procesando resultados de escaneos Nmap* | *Simulación de actividad de sistema (Sci-Fi)* |
+| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Demo"> | <img src="https://github.com/offensive-security/exploitdb/blob/master/searchsploit_update.gif?raw=true" width="400" alt="Searchsploit Demo"> |
+| *Procesando resultados de escaneos Nmap* | *Buscando vulnerabilidades en la base de datos* |
 
-| 🌐 Intercepción Web (Burp Suite) | 🦈 Análisis de Tráfico (Termshark) |
+| 🌐 Intercepción Web (Burp Suite) | 💻 Terminal Táctica (ZSH Shell) |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Demo"> | <img src="https://raw.githubusercontent.com/gcla/termshark/master/assets/termshark.gif" width="400" alt="Network Analysis Demo"> |
-| *Interceptando tráfico HTTP/S* | *Análisis de paquetes en tiempo real* |
+| <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Demo"> | <img src="https://github.com/zsh-users/zsh-syntax-highlighting/raw/master/images/demo.gif" width="400" alt="Terminal Typing Demo"> |
+| *Interceptando tráfico HTTP/S* | *Escritura de comandos con resaltado de sintaxis* |
 
 
 </p>
