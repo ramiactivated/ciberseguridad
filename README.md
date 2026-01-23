@@ -78,14 +78,7 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
 
 <br>
 
-### 🎥 Escaneo en Vivo
-> *Ejecución de reconocimiento de puertos.*
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=2000&pause=500&color=22C55E&background=0D1117&center=true&vCenter=true&width=700&height=80&lines=root%40kali%3A~%23+nmap+-sC+-sV+-p-+192.168.1.105;Starting+Nmap+7.94+at+2024-05-20+12%3A00+CET...;%5B%2B%5D+Discovered+open+port+22%2Ftcp+(ssh);%5B%2B%5D+Discovered+open+port+80%2Ftcp+(http);Scanned+in+12.45s.+Nmap+done%3A+1+IP+address+(1+host+up)." alt="Terminal Demo" />
-</div>
-
-<br>
 
 
 
