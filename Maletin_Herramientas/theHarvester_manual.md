@@ -1,8 +1,5 @@
-### ⚙️ Argumentos y Opciones
+### 💻 Ejemplo de Uso Real
 
-| Comando | Función |
-| :--- | :--- |
-| `-d` | Define el **dominio** de la empresa objetivo. |
-| `-b all` | Busca en **todas las fuentes** disponibles (Google, Bing, LinkedIn, etc). |
-| `-l 500` | **Limita** la búsqueda a los primeros 500 resultados. |
-| `-f report.html` | Genera un reporte visual en formato **HTML**. |
+```bash
+# Ejecución típica para obtener el máximo de información
+python3 theHarvester.py -d tesla.com -b all -l 500 -f reporte.html
