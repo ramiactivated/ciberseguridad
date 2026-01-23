@@ -24,10 +24,11 @@ Para tener este manual siempre a mano en tu máquina local:
 ```bash
 git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
 cd TU_REPOSITORIO
+```  <--- ¡ESTAS TRES COMILLAS SON LAS QUE FALTAN!
+
 ---
 
 ## 🔍 1. Reconocimiento y OSINT
-*Recopilación de información sobre el objetivo sin interactuar directamente.*
 
 | Herramienta | Descripción |
 | :--- | :--- |
