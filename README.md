@@ -77,15 +77,16 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
  ## 🎬 Demos en Vivo: Herramientas en Acción
 *Visualización real de terminales y herramientas de seguridad.*
 
-| 🕵️ Escaneo de Red (Nmap Parser) | 🖥️ Terminal "Hacker" (eDEX-UI) |
+| 🕵️ Escaneo de Red (Nmap) | 🖥️ Terminal "Hacker" (Genact) |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Output Demo"> | <img src="https://raw.githubusercontent.com/GitSquared/edex-ui/master/media/screen.gif" width="400" alt="Hacker Terminal"> |
-| *Procesando resultados de escaneos Nmap* | *Monitorización de sistema estilo Sci-Fi* |
+| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Demo"> | <img src="https://raw.githubusercontent.com/svenstaro/genact/master/doc/demo.gif" width="400" alt="Hacker Terminal Demo"> |
+| *Procesando resultados de escaneos Nmap* | *Simulación de actividad de sistema (Sci-Fi)* |
 
-| 🌐 Intercepción Web (Burp Suite) | ⚡ Ataques WiFi/Red (Bettercap) |
+| 🌐 Intercepción Web (Burp Suite) | 🦈 Análisis de Tráfico (Termshark) |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Intercept"> | <img src="https://raw.githubusercontent.com/bettercap/media/master/bettercap-transparent.png" width="400" alt="Bettercap Logo/Demo"> |
-| *Interceptando tráfico con Burp Proxy* | *Navaja suiza para redes y MITM* |
+| <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Demo"> | <img src="https://raw.githubusercontent.com/gcla/termshark/master/assets/termshark.gif" width="400" alt="Network Analysis Demo"> |
+| *Interceptando tráfico HTTP/S* | *Análisis de paquetes en tiempo real* |
+
 
 </p>
 <br>
