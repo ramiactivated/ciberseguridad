@@ -77,15 +77,10 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
 ## 🎬 Demos en Vivo: Herramientas en Acción
 *Visualización real de terminales y herramientas de seguridad.*
 
-| 🕵️ Escaneo de Red (Nmap) | 💥 Búsqueda de Exploits (Searchsploit) |
+| 🕵️ Escaneo de Red (Nmap) | 🌐 Intercepción Web (Burp Suite) |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Demo"> | <img src="https://github.com/offensive-security/exploitdb/blob/master/searchsploit_update.gif?raw=true" width="400" alt="Searchsploit Demo"> |
-| *Procesando resultados de escaneos Nmap* | *Buscando vulnerabilidades en la base de datos* |
-
-| 🌐 Intercepción Web (Burp Suite) | 💻 Terminal Táctica (ZSH Shell) |
-| :---: | :---: |
-| <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Demo"> | <img src="https://github.com/zsh-users/zsh-syntax-highlighting/raw/master/images/demo.gif" width="400" alt="Terminal Typing Demo"> |
-| *Interceptando tráfico HTTP/S* | *Escritura de comandos con resaltado de sintaxis* |
+| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Demo"> |  <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Demo"> |
+| *Procesando resultados de escaneos Nmap* | *Interceptando tráfico HTTP/S* |
 
 
 </p>
