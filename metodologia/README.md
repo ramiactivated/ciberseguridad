@@ -21,7 +21,7 @@
 
 | Documento | Descripción | Formato |
 | :--- | :--- | :---: |
-| [**Guía Metodológica**](./metodologia.md) | Desglose completo de las fases de reconocimiento, explotación y reporte. | 📝 Markdown |
+| [**Guía Metodológica**](./guia_metodologica_trabajo.md) | Desglose completo de las fases de reconocimiento, explotación y reporte. | 📝 Markdown |
 
 ---
 
