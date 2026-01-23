@@ -74,7 +74,20 @@ El contenido está organizado temáticamente. Haz clic en las carpetas para acce
   <img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
 
-  🔎 Reconocimiento y Escaneo (Nmap)⚡ Explotación y Cracking (Metasploit)<img src="https://i.imgur.com/r2wN2W1.gif" width="400" alt="Nmap Scan Demo"><img src="https://i.imgur.com/8z0yK4L.gif" width="400" alt="Metasploit Demo">Descubrimiento de puertos con NmapExplotación de vulnerabilidad MS17-010🌐 Intercepción Web (Burp Suite)📡 Sniffing y Man-in-the-Middle (Bettercap)<img src="https://i.imgur.com/3Tz2Y6J.gif" width="400" alt="Burp Suite Demo"><img src="https://i.imgur.com/0aQ5i1N.gif" width="400" alt="Bettercap Sniffing Demo">Interceptando y modificando peticiones HTTPSniffing de credenciales y tráfico de red🔐 Cracking de Contraseñas (John the Ripper)<img src="https://i.imgur.com/d7gX1Yt.gif" width="400" alt="John the Ripper Demo">Crackeando hashes de contraseñas locales
+ ## 🎬 Demos en Vivo: Herramientas en Acción
+*Visualización real de terminales y herramientas de seguridad.*
+
+| 🕵️ Escaneo de Red (Nmap Parser) | 🖥️ Terminal "Hacker" (eDEX-UI) |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/ernw/nmap-parse-output/master/demo.gif" width="400" alt="Nmap Output Demo"> | <img src="https://raw.githubusercontent.com/GitSquared/edex-ui/master/media/screen.gif" width="400" alt="Hacker Terminal"> |
+| *Procesando resultados de escaneos Nmap* | *Monitorización de sistema estilo Sci-Fi* |
+
+| 🌐 Intercepción Web (Burp Suite) | ⚡ Ataques WiFi/Red (Bettercap) |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/lauritzh/remote-js-debugger/master/demo.gif" width="400" alt="Burp Suite Intercept"> | <img src="https://raw.githubusercontent.com/bettercap/media/master/bettercap-transparent.png" width="400" alt="Bettercap Logo/Demo"> |
+| *Interceptando tráfico con Burp Proxy* | *Navaja suiza para redes y MITM* |
+
+> **Nota:** Para máxima estabilidad, te recomiendo descargar estos GIFs y subirlos a una carpeta `img` en tu propio repositorio.
 </p>
 <br>
 
